@@ -1,0 +1,13 @@
+[project]
+name = "sweval"
+version = "0.1.0"
+description = "Benchmark LLMs on Swahili and English tasks and publish a comparison report."
+requires-python = ">=3.10"
+dependencies = ["anthropic>=0.40", "sacrebleu>=2.4"]
+
+[project.scripts]
+sweval = "sweval.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

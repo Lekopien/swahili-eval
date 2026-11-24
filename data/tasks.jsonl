@@ -1,0 +1,5 @@
+{"id":"tr-en-sw-1","task":"translation","lang":"sw","prompt":"Translate to Swahili: Where is the nearest hospital?","reference":"Hospitali iliyo karibu iko wapi?"}
+{"id":"tr-sw-en-1","task":"translation","lang":"en","prompt":"Translate to English: Ninafurahi kukutana nawe.","reference":"I am happy to meet you."}
+{"id":"qa-ke-1","task":"local_qa","lang":"sw","prompt":"Mji mkuu wa Kenya ni upi? Jibu kwa neno moja.","reference":"Nairobi"}
+{"id":"qa-ke-2","task":"local_qa","lang":"en","prompt":"What is M-Pesa, in one sentence?","reference":"A mobile phone-based money transfer and payment service launched in Kenya."}
+{"id":"sum-sw-1","task":"summarization","lang":"sw","prompt":"Fupisha kwa sentensi moja: Shule nyingi za msingi nchini zimeanza kutumia kompyuta ndogo darasani ili kuwasaidia wanafunzi kujifunza kusoma na kuandika kwa urahisi zaidi. Walimu wanasema wanafunzi wanashiriki zaidi.","reference":"Shule za msingi zinatumia kompyuta ndogo kuboresha ujifunzaji na ushiriki wa wanafunzi."}
