@@ -16,10 +16,11 @@ def run(models: list[str], tasks: list[dict]) -> dict:
     rows = []
     for model in models:
         for t in tasks:
-            out = client.messages.create(
-                model=model, max_tokens=500,
+            msg = client.messages.create(
+                model=model, max_tokens=2000,
                 messages=[{"role": "user", "content": t["prompt"]}],
-            ).content[0].text.strip()
+            )
+            out = "".join(b.text for b in msg.content if b.type == "text").strip()
             rows.append({
                 "model": model, "id": t["id"], "task": t["task"], "lang": t["lang"],
                 "output": out, "chrf": round(chrf(out, t["reference"]), 1),
