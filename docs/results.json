@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "model": "claude-sonnet-5-5",
+      "id": "tr-en-sw-1",
+      "task": "translation",
+      "lang": "sw",
+      "output": "**Hospitali iliyo karibu zaidi iko wapi?**\n\nA few notes:\n- A more casual or common variation is: **\"Hospitali ya karibu iko wapi?\"**\n- If you want to say \"Where can I find the nearest hospital?\", you could say: **\"Naweza kupata hospitali ya karibu wapi?\"**",
+      "chrf": 40.9,
+      "judge": 0
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "id": "tr-sw-en-1",
+      "task": "translation",
+      "lang": "en",
+      "output": "\"Ninafurahi kukutana nawe\" is Swahili for **\"I am happy to meet you\"** (or \"Nice to meet you\").\n\nBreakdown:\n- **Ninafurahi**: I am happy/glad\n- **kukutana**: to meet\n- **nawe**: with you (na + wewe)",
+      "chrf": 32.8,
+      "judge": 5
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "id": "qa-ke-1",
+      "task": "local_qa",
+      "lang": "sw",
+      "output": "Nairobi",
+      "chrf": 100.0,
+      "judge": 5
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "id": "qa-ke-2",
+      "task": "local_qa",
+      "lang": "en",
+      "output": "M-Pesa is a mobile phone-based money transfer, payment, and microfinancing service launched in Kenya in 2007 by Safaricom and Vodafone, letting users deposit, send, and withdraw money using basic mobile phones without needing a bank account.",
+      "chrf": 58.7,
+      "judge": 5
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "id": "sum-sw-1",
+      "task": "summarization",
+      "lang": "sw",
+      "output": "Shule nyingi za msingi nchini zimeanza kutumia kompyuta ndogo darasani kurahisisha ujifunzaji wa kusoma na kuandika, na walimu wanasema wanafunzi wanashiriki zaidi.",
+      "chrf": 58.4,
+      "judge": 0
+    }
+  ],
+  "summary": [
+    {
+      "model": "claude-sonnet-5-5",
+      "lang": "en",
+      "chrf": 45.8,
+      "judge": 5.0,
+      "n": 2
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "lang": "sw",
+      "chrf": 66.4,
+      "judge": 1.67,
+      "n": 3
+    }
+  ]
+}
